@@ -6,7 +6,7 @@ package variables;
 
 /**
  *
- * @author labcca
+ * @author Samuel
  */
 public class listaTareas {
     public static void main(String[] args) {
