@@ -5,7 +5,7 @@
 
 /**
  *
- * @author labcca
+ * @author Samuel
  */
 public class Practica2 {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Practica2 {
         
         int area = base * altura;
         
-        System.out.println("Mi nombre es es: " + nombre + ", y el area del rectangulo es: " + area );
+        System.out.println("Mi nombre es: " + nombre + ", y el area del rectangulo es: " + area );
         
         // Con decimales
         System.out.println("Con numeros decimales");
@@ -23,7 +23,7 @@ public class Practica2 {
         double alturaDecimales = 47.4;
         
         double areaDecimales = baseDecimales * alturaDecimales;
-        System.out.println("Mi nombre es es: " + nombre + ", y el area del rectangulo es: " + areaDecimales );
+        System.out.println("Mi nombre es: " + nombre + ", y el area del rectangulo es: " + areaDecimales );
        
     }
     
