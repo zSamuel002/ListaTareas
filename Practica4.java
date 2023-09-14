@@ -6,7 +6,7 @@ package practica4;
 import java.util.Scanner;
 /**
  *
- * @author labcca
+ * @author Samuel
  */
 public class Practica4 {
 
@@ -19,6 +19,7 @@ public class Practica4 {
         
         System.out.print("Ingrese su cantidad en pesos Mexicanos: $");
         Double pesosmxn = moneda.nextDouble();
+        moneda.close();
 //------------------------------------------------------------------------------
 System.out.println("");
 //------------------------------------------------------------------------------
@@ -34,7 +35,6 @@ System.out.println("");
         euro = pesosmxn / PRECIOEURO;
         System.out.println("$" + pesosmxn + " MXN Son: " + euro + " euros.");
         
-        moneda.close();
     }
     
 }
