@@ -27,14 +27,14 @@ System.out.println("");
         System.out.println("Pesos mexicanos a dolares ");
        
         dolar = pesosmxn / PRECIOUSA;
-        System.out.println("$" + pesosmxn + " MXN Son: " + dolar + " dolares.");
+        System.out.println("$" + pesosmxn + " MXN Son: " + dolar + " USD.");
 //------------------------------------------------------------------------------
 System.out.println("");
 //------------------------------------------------------------------------------
         System.out.println("Pesos mexicanos a euros ");
         
         euro = pesosmxn / PRECIOEURO;
-        System.out.println("$" + pesosmxn + " MXN Son: " + euro + " euros.");
+        System.out.println("$" + pesosmxn + " MXN Son: " + euro + " EUR.");
         
     }
     
