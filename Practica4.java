@@ -12,7 +12,6 @@ public class Practica4 {
 
     public static void main(String[] args) {
        double dolar, euro;
-       
        final double PRECIOUSA = 17.13;
        final double PRECIOEURO = 18.27;
        
@@ -34,6 +33,8 @@ System.out.println("");
         
         euro = pesosmxn / PRECIOEURO;
         System.out.println("$" + pesosmxn + " MXN Son: " + euro + " euros.");
+        
+        moneda.close();
     }
     
 }
