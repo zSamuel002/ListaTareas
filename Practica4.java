@@ -19,6 +19,7 @@ public class Practica4 {
         
         System.out.print("Ingrese su cantidad en pesos Mexicanos: $");
         Double pesosmxn = moneda.nextDouble();
+        
         moneda.close();
 //------------------------------------------------------------------------------
 System.out.println("");
