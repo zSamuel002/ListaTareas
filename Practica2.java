@@ -5,11 +5,11 @@
 
 /**
  *
- * @author Samuel
+ * @author zSamuel002
  */
 public class Practica2 {
     public static void main(String[] args) {
-        String nombre = "Samuel Emiliano Arriaga Garcia";
+        String nombre = "Samuel Arriaga";
         int base = 30;
         int altura = 40;
         
